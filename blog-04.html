@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANÁLISIS Y DISEÑO DE ALGORITMOS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<header>
+    <h2>Principales Aspectos de la Teoria de Automatas y Compiladores</h2>
+</header>
+
+<body>
+    <div class="content-container">
+        <h1>Ejemplos de Programas con Manejo de Cadenas (Strings)</h1>
+
+        <h2>Programa 1: Contar vocales en una cadena</h2>
+        <pre>
+<code class="language-python">
+def contar_vocales(cadena):
+    vocales = "aeiouAEIOU"
+    contador = 0
+    for caracter in cadena:
+        if caracter in vocales:
+            contador += 1
+    return contador
+
+cadena = "Hola, Mundo!"
+num_vocales = contar_vocales(cadena)
+print("Número de vocales en la cadena:", num_vocales)
+</code>
+</pre>
+
+        <h2>Programa 2: Reversión de una cadena</h2>
+        <pre>
+<code class="language-python">
+def revertir_cadena(cadena):
+    return cadena[::-1]
+
+cadena = "Hola, Mundo!"
+cadena_revertida = revertir_cadena(cadena)
+print("Cadena revertida:", cadena_revertida)
+</code>
+</pre>
+
+
+        <section class="cta-section">
+            <h2>¿Quieres seguir leyendo?</h2>
+            <a href="index.html" class="cta-button">Volver al inicio</a>
+            <a href="blog-references.html" class="cta-button">Ver Referencias</a>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+<footer>
+    <p>&copy; 2023 Universidad Iberoamericana - Todos los derechos reservados</p>
+</footer>
+
+</html>
