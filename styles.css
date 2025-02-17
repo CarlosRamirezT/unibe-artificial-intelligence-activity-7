@@ -196,5 +196,9 @@ footer {
     color: #fff;
 }
 
-/* Add any additional styles you need here */
-
+.language-logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
